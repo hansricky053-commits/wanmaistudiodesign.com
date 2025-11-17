@@ -1,0 +1,94 @@
+<html>
+   <head>
+       <meta charset="utf-8" />
+	   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+	   <meta name="viewport" content="width=device-width, initial-scale=1" />
+	   <title>WANMAI STUDIO DESIGN</title>
+	   <link rel="stylesheet" href="style.css"/>
+   </head>
+   <body>
+       <header>
+	      <div class="logo">
+			<img src="ASET/LOGO WEB/wanmai studio design 2.png" alt="logo" class="logo-img"/>
+			<h1 class="logo">WANMAI STUDIO DESIGN</h1>
+		  </div>
+		  
+		   <nav>
+		          <ul>
+			        <li><a href="#HOME">HOME</a></li>
+					<li><a href="#PRODUCT & LAYANAN KAMI">PRODUCT & LAYANAN KAMI</a></li>
+				    <li><a href="mailto:hansricky053@gmail.com">CONTACT US</a></li>
+			      </ul>
+		   </nav>
+		   <button class="btn-cta" onclick="redirtiktok()">FOLLOW ME</button>
+	   </header>
+	   <div class="container">
+	        <div class="intro" id="HOME">
+			    <p class="title">Wanmai studio design,</p>
+				<p class="description">jasa design bikin designmu jadi lebih menarik.</p>
+				<p class="material">dapatkan design yg berkualitas dan menarik untuk bisnismu  layanan terbaik kami.</p>
+				<img src="ASET/KUMPULAN GAMBAR/DEN.png" alt="DEN KUMPULAN GAMBAR" class="img-foto"/>
+			</div>
+	   </div>
+	<div class="parallax">
+	     <div class="tentang">
+		        <p class="title">kami adalah jasa design,</p>
+				<p class="description">mau bikin design simpel dan juga menarik?</p> 
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirwhatsapp()">yuk diorder</button>
+				</div>
+	     </div>
+		  <div class="container">
+		    <div class="LAYANAN KAMI" id="PRODUCT & LAYANAN KAMI">
+					<p class="title">PRODUCT & LAYANAN KAMI:</p>
+		    </div>
+	      </div>
+		 
+	 <div class="container">
+	 <div class="wrapper">
+	 <div class="card">
+				  <div class="card-item">
+					<img src="ASET/LOGO WEB/BROSUR JASA 3.png" alt="DEN KUMPULAN GAMBAR" class="img-foto"/>
+					<p class="card-description">design brosur</p>
+				  </div>
+				  <div class="card-item">
+					<img src="ASET/KUMPULAN GAMBAR/Untitled-1.png" alt="DEN KUMPULAN GAMBAR" class="img-foto"/>
+					<p class="card-description">design baju</p>
+				  </div>	
+				  <div class="card-item 3">
+					<img src="ASET/KUMPULAN GAMBAR/RAJA NASGOR 1.jpg" alt="DEN KUMPULAN GAMBAR" class="img-foto"/>
+					<p class="card-description">design banner</p>
+	 		      </div>
+	   </div>
+	   <div class="card">
+	               <div class="card-item">
+					<img src="ASET/KUMPULAN GAMBAR/sl_080420_33360_17(1).png" alt="DEN KUMPULAN GAMBAR" class="img-foto"/>
+					<p class="card-description">layanan 24 jam</p>
+				   </div>
+				   <div class="card-item">
+					<img src="ASET/KUMPULAN GAMBAR/GAMBAR JABAT TANGAN.png" alt="DEN KUMPULAN GAMBAR" class="img-foto"/>
+					<p class="card-description">layanan profesionalitas</p>
+				   </div>
+				   <div class="card-item">
+					<img src="ASET/KUMPULAN GAMBAR/DEN.png" alt="DEN KUMPULAN GAMBAR" class="img-foto"/>
+					<p class="card-description">layanan revisi</p>
+				   </div>
+		</div>
+	 </div>
+	 </div>
+	<footer>
+		<p class="title">&copy; WANMAI STUDIO DESIGN WEBSITE 2025</p>
+	</footer>
+	
+	<script>
+		function redirtiktok() {
+			window.location.href = "https://tiktok.com/@wanmaistudiodesign"
+		}
+		
+		function redirwhatsapp() {
+			window.location.href = "https://wa.me/+6281319497810"
+		}
+	</script>
+   </body>
+
+<html>   
